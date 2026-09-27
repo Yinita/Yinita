@@ -1,0 +1,4 @@
+dataset,model,scenario_count,topology,task_success_rate,mean_judge_score,empty_response_rate,estimated_cost_usd,notice
+demo-synthetic-v1,mock-model,12,single,0.5833,3.2,0.0,0.02,Synthetic demonstration only; not a measured result.
+demo-synthetic-v1,mock-model,12,central,0.6667,3.5,0.0,0.07,Synthetic demonstration only; not a measured result.
+demo-synthetic-v1,mock-model,12,debate,0.75,3.8,0.0,0.13,Synthetic demonstration only; not a measured result.

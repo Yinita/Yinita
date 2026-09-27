@@ -1,0 +1,12 @@
+{"scenario_id":"S01","prompt":"Classify a mock support request as billing, access, or other.","expected":"billing"}
+{"scenario_id":"S02","prompt":"Summarize a synthetic incident in one sentence.","expected":"one-sentence summary"}
+{"scenario_id":"S03","prompt":"Choose the next step for a mock password reset request.","expected":"verified reset flow"}
+{"scenario_id":"S04","prompt":"Extract the due date from a fabricated invoice snippet.","expected":"date or unknown"}
+{"scenario_id":"S05","prompt":"Route a mock bug report to a team.","expected":"team label"}
+{"scenario_id":"S06","prompt":"Identify missing fields in a synthetic onboarding form.","expected":"missing field list"}
+{"scenario_id":"S07","prompt":"Rewrite a short mock alert for a non-technical reader.","expected":"plain-language alert"}
+{"scenario_id":"S08","prompt":"Compare two fictional plan descriptions.","expected":"grounded comparison"}
+{"scenario_id":"S09","prompt":"Detect a contradiction in fabricated policy snippets.","expected":"contradiction or none"}
+{"scenario_id":"S10","prompt":"Return a JSON label for a synthetic request.","expected":"valid JSON label"}
+{"scenario_id":"S11","prompt":"List two risks in an invented deployment note.","expected":"two grounded risks"}
+{"scenario_id":"S12","prompt":"Select the safest response to a mock account question.","expected":"privacy-safe response"}
