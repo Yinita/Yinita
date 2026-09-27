@@ -35,9 +35,9 @@ def main():
                 "model": "mock-model",
                 "topology": topology,
                 "success": success,
-                "judge_score": spec["score"] if success else round(max(1, spec["score"] - 1), 1),
+                "judge_score": round(spec["score"] if success else max(1, spec["score"] - 1), 1),
                 "response": f"Synthetic {topology} response for {scenario['scenario_id']}" if success else "",
-                "estimated_cost_usd": round(spec["cost"] / len(scenarios), 6),
+                "estimated_cost_usd": round(spec["cost"] / len(scenarios), 8),
             })
         summaries.append({
             "dataset": "demo-synthetic-v1",
@@ -45,7 +45,7 @@ def main():
             "scenario_count": len(scenarios),
             "topology": topology,
             "task_success_rate": round(success_count / len(scenarios), 4),
-            "mean_judge_score": spec["score"],
+            "mean_judge_score": round(sum(spec["score"] if index < success_count else max(1, spec["score"] - 1) for index in range(len(scenarios))) / len(scenarios), 4),
             "empty_response_rate": 0.0,
             "estimated_cost_usd": spec["cost"],
             "notice": "Synthetic demonstration only; not a measured result.",
