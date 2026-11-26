@@ -9,10 +9,6 @@
 | [aoe2de-expert](https://github.com/Yinita/aoe2de-expert) | Chinese training site for advanced Age of Empires II: DE players: 32 drill cards from 53 sources. |
 | [Outpost_Exodus](https://github.com/Yinita/Outpost_Exodus) | Single-player 2D survival-strategy game: clear the horde, build camps, evacuate and break out. |
 
-## Services
-
-- [Multi-Agent LLM Evaluation](https://yinita.github.io/Yinita/ai-evaluation.html): fixed-scope evaluations from $60, with customer-controlled model access and spending limits.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yinita/Yinita/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yinita/Yinita/output/github-contribution-grid-snake.svg">
